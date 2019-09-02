@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Event Logging</string>
+    <string name="action_favorite">ADD EVENT</string>
+    <string name="title">Title:</string>
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+    <string name="gps">GPS:</string>
+    <string name="event">Event:</string>
+    <string name="desc">Event Description:</string>
+    <string name="title_prompt">Enter title</string>
+    <string name="desc_prompt">Enter description</string>
+    <string name="enter">Enter</string>
+    <string name="delete">DELETE</string>
+    <string name="no_events">NO EVENTS CREATED</string>
+</resources>

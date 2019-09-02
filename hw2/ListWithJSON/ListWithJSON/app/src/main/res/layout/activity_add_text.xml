@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddText">
+
+    <TextView
+        android:id="@+id/event_name"
+        android:layout_width="62dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="331dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/event_desc"
+        android:layout_width="220dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/desc"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_input1" />
+
+    <EditText
+        android:id="@+id/user_input1"
+        android:layout_width="378dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/title_prompt"
+        android:inputType="text"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event_name" />
+
+    <EditText
+        android:id="@+id/user_input2"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/desc_prompt"
+        android:inputType="text"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event_desc" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="95dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/enter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_input2" />
+
+</android.support.constraint.ConstraintLayout>
